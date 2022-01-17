@@ -61,6 +61,11 @@
  Переместиться к ветке с именем branch_name:
 > git checkout branch_name
 
+## Удаление веток
+
+ Для того ,чтобы удалить ветку с именем branche_ name:
+
+ >git branche -d branche_name
 
 
 
