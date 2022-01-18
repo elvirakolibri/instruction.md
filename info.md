@@ -77,6 +77,13 @@
 
 >git branch -D branch_name
 
+## Справка
+Чтобы вызвать справку по команде, допишите тег:
+> --help
+ примеры:
+ >git ad --help
+ >git branch --help
+
 
 
    
