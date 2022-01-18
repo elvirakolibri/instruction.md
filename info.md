@@ -2,22 +2,22 @@
 
   ## Для начала работы:
    
-   git init
+   > git init
 
    Если имя пользователя и почта ещё не были заданы:
 
-   git config --global user.name
+   > git config --global user.name
 
-   git config --global user.email
+   > git config --global user.email
 
    ## Работа с файлами:
 
    Для того,чтобы добавить фал нужно:
 
-   1. git add file_name
+   1. > git add file_name
  добавляем файл с именем  file_name для отслеживания
 
- 2. git_commit -m"some massage"
+   2. > git_commit -m"some massage"
 
      * добавляем текущие изменения в репозиторий и подписываем их с помощью тега -m
 
@@ -26,21 +26,21 @@
 
  Чтобы отслеживать состояние репозитория:
   
-   1. git status
+   1. > git status
  
- 2. git log
+   2. > git log  
 
-  3. git diff
+   3. > git diff
 
   ## Работа с коммитами
 
   Для того чтобы перейти к определенному коммиту, можно использовать команду 
-  git checkout code_commit
+  > git checkout code_commit
 
   code_commit-код коммита, к которому хотим перейти, его можно посмотреть в git log
 
   Чтобы вернуться к последнему состоянию:
-  git checkout main
+  > git checkout main
   
 
   ![Flower](3551025b-5bea-4000-ab45-f1cbf6a245b8.png)
@@ -63,7 +63,7 @@
  
  ## Слияние веток и решение конфликтов
  Чтобы слитьинформацию из ветки branch_name в текущую:
- >git merge branch_name
+ > git merge branch_name
 
 
  В случае конфликта нужно удалить все лишние строки и оставить ту часть,которая нам нужна. Усли необзодимо , то можно отредактирвать её.
@@ -71,18 +71,18 @@
 
  Для того ,чтобы удалить ветку с именем branche_ name:
 
- >git branche -d branche_name
+ > git branche -d branche_name
 
 Удаление с игнорированием ошибок:
 
->git branch -D branch_name
+> git branch -D branch_name
 
 ## Справка
 Чтобы вызвать справку по команде, допишите тег:
 > --help
  примеры:
- >git ad --help
- >git branch --help
+ > git ad --help
+ > git branch --help
 
 
 
